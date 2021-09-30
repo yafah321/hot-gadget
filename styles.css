@@ -1,0 +1,103 @@
+.container{
+    margin-bottom: 60px;
+}
+
+/****carousel***/
+.carousel-indicators div {
+    height: 7px;
+    width: 10px;
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin: 10px 3px;
+}  
+  
+.carousel-indicators .active {
+    height: 7px;
+    width: 30px;
+    border-radius: 14px;
+    background-image: linear-gradient(to right, #ff8206, #ffd019);
+}
+.carousel-item {
+    padding: 10px 40px 20px;
+}
+
+.buy-now-btn {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.buy-now-btn {
+  
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border: none;
+   border-radius: 10px;
+   display: block;
+   padding: 10px;
+ }
+
+ .buy-now-btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+}
+
+
+.cchead a:link {
+     color: #FF9C35;
+}
+
+.card {
+    border: none;
+    box-shadow: 1px 1px 10px #80808080;
+    border-radius: 15px;
+}
+
+.card-body{
+    text-align: center;
+    align-items: center;
+}
+
+
+.card-btn {background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
+.card-btn {
+  
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.3s;
+   background-size: 200% auto;
+   color: white;            
+   border: none;
+   border-radius: 10px;
+   display: block;
+   padding: 10px;
+ }
+
+ .card-btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+}
+
+
+/*******catagory*******/
+.underline-block {
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ff8206, #ffff00);
+}
+
+#bag {
+    border-radius: 5px 15px 5px 30px;
+}
+#perfume, #shoe{
+    border-radius: 15px 5px 30px 5px;
+}
+
+.footer-block{
+    /*background: #c31432;   fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+}
